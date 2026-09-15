@@ -3,84 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Page Website</title>
+    <title>Design Your Home — Interior & Architectural Spaces</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    </head>
+</head>
 <body>
-    <div id="banner">
-        <nav id="navbar">
-            <img src="Section-13/assets/logo.png" class="logo" alt="">
-            <!-- now adding the elements in the navigation bar -->
-             <!-- after creating the navigation bar after adding all the colours to it -->
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Bedroom</a></li>
-                <li><a href="">Dining</a></li>
-                <li><a href="">Kitchen</a></li>
-                <li><a href="">Backyard</a></li>
-              </ul>
-<!-- yes now we are going in the correct path now and now we are doing the same thing -->
-            </nav>
-            <section id="top-section">
-         <h1>DESIGN YOUR HOME</h1>
-                <p>
-                    Transform your living space into a reflection of your personality and lifestyle. At DESIGN YOUR HOME, we believe that every corner of your house should tell a story—your story.<br> Whether you're dreaming of a cozy minimalist retreat or a vibrant, eclectic haven, our design solutions blend creativity with functionality to bring your vision to life.<br> Let us help you create a home that feels uniquely yours.
-                </p>
-                <div>
-                    <button class="btn"> Contact me</button>
-                    <button class="btn">Learn More</button>
-                    <!-- see now i have added the buttons by using this button option -->
-                     
-                </div>
-                </section>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#banner" class="brand-logo">
+                <i class="fas fa-couch"></i> Design<span>Home</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#bedroom">Bedroom</a></li>
+                <li><a href="#dining">Dining</a></li>
+                <li><a href="#kitchen">Kitchen</a></li>
+                <li><a href="#backyard">Backyard</a></li>
+            </ul>
         </div>
-<section id="Bedroom">
-    <h2>BEDROOM</h2>
-    <p>The bedroom is your sanctuary—a place to unwind, recharge, and dream. Our designs blend comfort, elegance, and functionality to create a space that reflects your personality and promotes restful living </p>
-    <p>We focus on soothing colors, smart storage, and cozy textures to make your bedroom both stylish and deeply relaxing. </p>
-     <p>Sleep well, live well—design your bedroom with intention. </p>
-    </section>
-<section id="Dining">
-    <!-- by targeting to the above id i can easily add the css to the given text -->
-<h2>DINING</h2>
-     <p>Dining at our resort offers a delightful experience with a variety of cuisines, elegant ambiance, and exceptional service. Whether you're craving local flavors or international dishes, satisfaction is guaranteed.    </p>
-     <p>Our chefs craft each meal with passion, using fresh ingredients to create unforgettable flavors that cater to every guest’s taste.   </p>
-     <p> Enjoy gourmet meals in a serene, beautifully designed setting.
+    </nav>
 
-Let me know if you'd like to adjust the tone—formal, casual, promotional, or even poetic!   </p>
-</section>
-<section id="Kitchen">
-     <p>Our kitchen is equipped with modern appliances, spacious countertops, and smart storage solutions. It’s designed for both functionality and style, making cooking a joyful experience for every home chef.   </p>
-    <p>From morning coffee to gourmet dinners, the kitchen serves as the heart of the home, blending comfort with culinary creativity.    </p>
-        <p>Clean, efficient, and ready for your next delicious creation.
+    <header id="banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <span class="subheading">Luxury Interior Architecture</span>
+            <h1>DESIGN YOUR HOME</h1>
+            <p>
+                Transform your living space into a reflection of your personality and lifestyle. At DESIGN YOUR HOME, we believe every corner should tell your story. Our tailored design solutions blend timeless elegance with everyday functionality.
+            </p>
+            <div class="btn-group">
+                <a href="#bedroom" class="btn btn-primary"><i class="fas fa-compass"></i> Explore Spaces</a>
+                <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Us</a>
+            </div>
+        </div>
+    </header>
 
-Let me know if you'd like a different tone—luxury, rustic, minimalist, or anything else!    </p>
-</section>
-<section id="Backyard">
- <h2>BACKYARD</h2>
-    <p>The backyard offers a peaceful retreat with lush greenery, cozy seating, and open skies. It's perfect for morning yoga, evening gatherings, or simply unwinding with nature’s calming presence.  </p>
-    <p>Whether hosting a barbecue or enjoying solitude, the backyard blends comfort and charm, making every moment outdoors feel special.  </p>
-    <p>Relax, recharge, and reconnect in your tranquil outdoor haven.
+    <main class="content-wrapper">
+        <section id="bedroom" class="space-section">
+            <div class="space-card">
+                <div class="space-image" style="background-image: url('https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=80');"></div>
+                <div class="space-text">
+                    <span class="tag">Sanctuary</span>
+                    <h2>BEDROOM</h2>
+                    <p>The bedroom is your personal sanctuary—a space crafted to unwind, recharge, and dream. We curate soothing palettes, bespoke acoustic treatments, and plush textures to promote restorative living.</p>
+                    <p>From custom wardrobe joinery to ambient circadian lighting, our bedroom designs prioritize comfort and serenity.</p>
+                </div>
+            </div>
+        </section>
 
-Let me know if you'd like a version with a more playful, luxurious, or minimalist tone!  </p>
-    </section>
-<!-- see we are giving the same thing that we have to take care of  -->
- <!-- see now i am going to add the fotter section to here now -->
-<footer>
- <p>
-        copyright &copy;| All rights reserved
-      </p>
-</footer>
-<!-- our project is same thing that we have the same thing that we have  -->
+        <section id="dining" class="space-section reverse">
+            <div class="space-card">
+                <div class="space-image" style="background-image: url('https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=900&q=80');"></div>
+                <div class="space-text">
+                    <span class="tag">Gathering</span>
+                    <h2>DINING</h2>
+                    <p>Dining rooms serve as the heart of connection, hosting intimate family dinners and grand celebrations alike. We craft elegant dining spaces with sculptural statement chandeliers and bespoke dining tables.</p>
+                    <p>Experience an ambiance that balances warmth with refined sophistication, elevating every meal into an occasion.</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="kitchen" class="space-section">
+            <div class="space-card">
+                <div class="space-image" style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=900&q=80');"></div>
+                <div class="space-text">
+                    <span class="tag">Culinary</span>
+                    <h2>KITCHEN</h2>
+                    <p>Engineered for precision and aesthetic flow, our kitchen concepts combine high-end integrated appliances, generous quartz countertops, and smart concealment systems.</p>
+                    <p>Designed for passionate home chefs and effortless entertaining, every workstation is balanced for ergonomic efficiency.</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="backyard" class="space-section reverse">
+            <div class="space-card">
+                <div class="space-image" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80');"></div>
+                <div class="space-text">
+                    <span class="tag">Outdoor Oasis</span>
+                    <h2>BACKYARD</h2>
+                    <p>Extend your living area into the open air with seamless indoor-outdoor architectural transitions. Our landscape designs incorporate lounge terraces, fire pit zones, and pergolas.</p>
+                    <p>Relax, recharge, and entertain surrounded by serene greenery and tranquil open skies.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer id="contact">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3><i class="fas fa-couch"></i> Design<span>Home</span></h3>
+                <p>Creating inspired, timeless residential spaces worldwide.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#banner">Home</a>
+                <a href="#bedroom">Bedroom</a>
+                <a href="#dining">Dining</a>
+                <a href="#kitchen">Kitchen</a>
+                <a href="#backyard">Backyard</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Design Your Home. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
-    
-
-
-
-
-    
